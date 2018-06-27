@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Portal Rural</title>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<section class="header-container">
+
+	<div class="form">
+  	<form action="wrapper.php" method="post">
+    <label for="fname">Nome:</label>
+    <input type="text" id="nome" name="msg" placeholder="Nome do evento...">
+
+    <label for="fname">Local:</label>
+    <input type="text" id="local" name="localevento" placeholder="Local do evento...">
+
+    <label for="lname">Data do Evento:</label>
+    <input type="date" data-date-inline-picker="true" name="dataevento" />
+
+    <input id="time" type="time" name="horainicio">
+    <a> às </a>
+    <input id="time" type="time" name="horafinal">
+
+    <textarea id="subject" name="descricao" placeholder="Detalhes do evento..." style="height:200px"></textarea>
+
+    <input type="file" name="fileupload" value="fileupload" id="fileupload">
+    <label for="fileupload"></label>
+
+    <input class="submit-button" type="submit" value="Postar">
+    
+  </form>
+ 
+
+</div>
+
+	</section>
+</head>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

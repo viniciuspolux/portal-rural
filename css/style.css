@@ -1,0 +1,80 @@
+
+*,
+*::before,
+*::after  {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+.header-container {
+    height: 100vh;
+    background-image: linear-gradient(
+        to left bottom, 
+        hsla(0, 0%, 21%, 0.8), 
+        hsla(0, 0%, 0%, 0.8)),
+        url('../img/background.jpg');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+/* ###################### FORMS ############################## */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #0b35c0;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0938d38a;
+}
+
+.container {
+	display: flex;
+	margin-left: 10rem;
+	margin-right: 10rem;
+    padding: 20px;
+}
+
+form { 
+    margin: 0 auto; 
+    width:500px;
+    padding-top: 15rem;
+    font-size: 1.3rem;
+    color: #fff;
+    }
+
+.name {
+    color: #ccc;
+}
+
+.submit-button {
+    margin-top: 3rem;
+    display: flex;
+   
+    
+}
+
